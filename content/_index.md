@@ -67,15 +67,6 @@ sections:
     design:
       view: citation
   - block: collection
-    id: talks
-    content:
-      title: Recent & Upcoming Talks
-      filters:
-        folders:
-          - events
-    design:
-      view: card
-  - block: collection
     id: news
     content:
       title: Recent News
@@ -104,6 +95,20 @@ sections:
       # Reduce spacing
       spacing:
         padding: [0, 0, 0, 0]
+   - block: contact
+    id: contact
+    content:
+      title: Contact
+      subtitle: ''
+      text: ''
+      email: qyceme@rit.edu
+      address:
+        city: Rochester
+        region: NY
+        country: United States
+        country_code: US
+    design:
+      columns: '2'
   - block: cta-card
     demo: true # Only display this section in the HugoBlox Kit demo site
     content:
