@@ -4,7 +4,7 @@ authors:
   - "Qianying Cao"
   - "Somdatta Goswami"
   - "George Em Karniadakis"
-date: "2024-06"
+date: "2024-06-24"
 publication: "Nature Machine Intelligence"
 publication_types:
   - "article-journal"
