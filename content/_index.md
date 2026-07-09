@@ -7,6 +7,7 @@ type: landing
 
 sections:
   - block: resume-biography-3
+    id: bio
     content:
       # Choose a user profile to display (a folder name within `content/authors/`)
       username: me
@@ -34,6 +35,7 @@ sections:
         size: medium # Options: small (150px), medium (200px, default), large (320px), xl (400px), xxl (500px)
         shape: circle # Options: circle (default), square, rounded
   - block: markdown
+    id: research
     content:
       title: '📚 My Research'
       subtitle: ''
@@ -115,18 +117,17 @@ sections:
         # Card background color (CSS class)
         css_class: 'bg-gradient-to-br from-primary-500 via-primary-600 to-secondary-600 text-white shadow-2xl'
         css_style: ''
-  - block: contact
+  - block: markdown
     id: contact
     content:
       title: Contact
       subtitle: ''
-      text: ''
-      email: qyceme@rit.edu
-      address:
-        city: Rochester
-        region: NY
-        country: United States
-        country_code: US
+      text: |-
+        **Email:** [qyceme@rit.edu](mailto:qyceme@rit.edu)
+
+        **Affiliation:** Department of Mechanical Engineering, Rochester Institute of Technology
+
+        **Location:** Rochester, NY, United States
     design:
-      columns: '2'
+      columns: '1'
 ---
