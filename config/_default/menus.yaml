@@ -17,7 +17,7 @@ main:
     url: /openings/
     weight: 40
   - name: News
-    url: /#news/
+    url: /#news
     weight: 50
   - name: Contact
     url: /#contact
