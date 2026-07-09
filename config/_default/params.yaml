@@ -19,7 +19,7 @@ hugoblox:
     # Schema.org type for structured data
     type: person # person | organization | local_business
     # Short tagline displayed on your site
-    tagline: "Assistant Professor of Department of Mechanical Engineering""
+    tagline: "Assistant Professor of Department of Mechanical Engineering"
     # Site meta description for search engines and social sharing
     description: "Personal academic website of Dr. Qianying Cao, Assistant Professor of Mechanical Engineering at Rochester Institute of Technology."
     # Social accounts (used for meta tags like Twitter Cards)
